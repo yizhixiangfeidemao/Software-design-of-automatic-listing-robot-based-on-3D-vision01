@@ -1,0 +1,8 @@
+D:\GuaPai\PCL_test1.8.1\PLC_Test\bin\Debug\PLC_Test.exe.config
+D:\GuaPai\PCL_test1.8.1\PLC_Test\bin\Debug\PLC_Test.exe
+D:\GuaPai\PCL_test1.8.1\PLC_Test\bin\Debug\PLC_Test.pdb
+D:\GuaPai\PCL_test1.8.1\PLC_Test\bin\Debug\S7.Net.dll
+D:\GuaPai\PCL_test1.8.1\PLC_Test\bin\Debug\S7.Net.xml
+D:\GuaPai\PCL_test1.8.1\PLC_Test\obj\Debug\PLC_Test.exe
+D:\GuaPai\PCL_test1.8.1\PLC_Test\obj\Debug\PLC_Test.pdb
+D:\GuaPai\PCL_test1.8.1\PLC_Test\obj\Debug\PLC_Test.csprojResolveAssemblyReference.cache
