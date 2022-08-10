@@ -1,0 +1,103 @@
+﻿<UserControl x:Class="HandEyeTranslationApp.View.PointCloudView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HandEyeTranslationApp.View"
+             mc:Ignorable="d" DataContext="{Binding Source={StaticResource Locator},Path=PointCloud}"
+             d:DesignHeight="500" d:DesignWidth="700" Background="AliceBlue">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
+            <TextBlock Margin="100,0" Text="X" Width="10" Height="16" FontSize="16"/>
+            <TextBlock Margin="100,0" Text="Y" Width="10" Height="16" FontSize="16"/>
+            <TextBlock Margin="100,0" Text="Z" Width="10" Height="16" FontSize="16"/>
+        </StackPanel>
+        <Label Grid.Row="1" Content="1" HorizontalAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Name="tbxCameraX1" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraY1" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraZ1" Margin="55,6" Width="100" Height="20" FontSize="16" />
+        </StackPanel>
+
+        <Label Grid.Row="2" Grid.Column="0" Content="2" HorizontalAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Name="tbxCameraX2" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraY2" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraZ2" Margin="55,6" Width="100" Height="20" FontSize="16" />
+        </StackPanel>
+
+        <Label Grid.Row="3" Content="3" HorizontalAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Name="tbxCameraX3" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraY3" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraZ3" Margin="55,6" Width="100" Height="20" FontSize="16" />
+        </StackPanel>
+
+        <Label Grid.Row="4" Content="4" HorizontalAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Name="tbxCameraX4" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraY4" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraZ4" Margin="55,6" Width="100" Height="20" FontSize="16" />
+        </StackPanel>
+
+        <Label Grid.Row="5" Content="5" HorizontalAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="5" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Name="tbxCameraX5" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraY5" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraZ5" Margin="55,6" Width="100" Height="20" FontSize="16" />
+        </StackPanel>
+
+        <Label Grid.Row="6" Content="6" HorizontalAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="6" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Name="tbxCameraX6" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraY6" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraZ6" Margin="55,6" Width="100" Height="20" FontSize="16" />
+        </StackPanel>
+
+        <Label Grid.Row="7" Content="7" HorizontalAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="7" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Name="tbxCameraX7" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraY7" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraZ7" Margin="55,6" Width="100" Height="20" FontSize="16" />
+        </StackPanel>
+
+        <Label Grid.Row="8" Content="8" HorizontalAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="8" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Name="tbxCameraX8" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraY8" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraZ8" Margin="55,6" Width="100" Height="20" FontSize="16" />
+        </StackPanel>
+
+        <Label Grid.Row="9" Content="9" HorizontalAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="9" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Name="tbxCameraX9" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraY9" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraZ9" Margin="55,6" Width="100" Height="20" FontSize="16" />
+        </StackPanel>
+
+        <Label Grid.Row="10" Content="10" HorizontalAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="10" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Name="tbxCameraX10" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraY10" Margin="55,6" Width="100" Height="20" FontSize="16" />
+            <TextBox Name="tbxCameraZ10" Margin="55,6" Width="100" Height="20" FontSize="16" />
+        </StackPanel>
+        
+    </Grid>
+</UserControl>
