@@ -1,0 +1,5 @@
+D:\GuaPai\PCL_test1.8.1\TestCamera\bin\x64\Debug\TestCamera.exe.config
+D:\GuaPai\PCL_test1.8.1\TestCamera\bin\x64\Debug\TestCamera.exe
+D:\GuaPai\PCL_test1.8.1\TestCamera\bin\x64\Debug\TestCamera.pdb
+D:\GuaPai\PCL_test1.8.1\TestCamera\obj\x64\Debug\TestCamera.exe
+D:\GuaPai\PCL_test1.8.1\TestCamera\obj\x64\Debug\TestCamera.pdb

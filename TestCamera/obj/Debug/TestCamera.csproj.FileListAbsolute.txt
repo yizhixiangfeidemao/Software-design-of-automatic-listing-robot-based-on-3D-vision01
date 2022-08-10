@@ -1,0 +1,8 @@
+D:\GuaPai\PCL_test1.8.1\TestCamera\bin\Debug\TestCamera.exe.config
+D:\GuaPai\PCL_test1.8.1\TestCamera\bin\Debug\TestCamera.exe
+D:\GuaPai\PCL_test1.8.1\TestCamera\bin\Debug\TestCamera.pdb
+D:\GuaPai\PCL_test1.8.1\TestCamera\obj\Debug\TestCamera.exe
+D:\GuaPai\PCL_test1.8.1\TestCamera\obj\Debug\TestCamera.pdb
+D:\GuaPai\PCL_test1.8.1\TestCamera\obj\Debug\TestCamera.csprojResolveAssemblyReference.cache
+D:\GuaPai\PCL_test1.8.1\TestCamera\bin\Debug\S7.Net.dll
+D:\GuaPai\PCL_test1.8.1\TestCamera\bin\Debug\S7.Net.xml

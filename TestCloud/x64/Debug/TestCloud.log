@@ -1,0 +1,90 @@
+﻿  other.cpp
+c:\program files (x86)\pcl 1.8.1\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files (x86)\pcl 1.8.1\include\pcl-1.8\pcl\visualization\interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files (x86)\pcl 1.8.1\include\pcl-1.8\pcl\visualization\pcl_visualizer.h(1585): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\guapai\pcl_test1.8.1\testcloud\other.cpp(54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\guapai\pcl_test1.8.1\testcloud\other.cpp(61): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+d:\guapai\pcl_test1.8.1\testcloud\other.cpp(89): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+d:\guapai\pcl_test1.8.1\testcloud\other.cpp(136): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+d:\guapai\pcl_test1.8.1\testcloud\other.cpp(357): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\guapai\pcl_test1.8.1\testcloud\other.cpp(371): warning C4804: “<”: 在操作中使用类型“bool”不安全
+c:\program files (x86)\pcl 1.8.1\include\pcl-1.8\pcl\filters\conditional_removal.h(621): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  c:\program files (x86)\pcl 1.8.1\include\pcl-1.8\pcl\filters\conditional_removal.h(618): note: 编译类 模板 成员函数“pcl::ConditionalRemoval<pcl::PointXYZ>::ConditionalRemoval(int)”时
+  d:\guapai\pcl_test1.8.1\testcloud\other.cpp(24): note: 参见对正在编译的函数 模板 实例化“pcl::ConditionalRemoval<pcl::PointXYZ>::ConditionalRemoval(int)”的引用
+  d:\guapai\pcl_test1.8.1\testcloud\other.cpp(24): note: 参见对正在编译的类 模板 实例化“pcl::ConditionalRemoval<pcl::PointXYZ>”的引用
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(54): note: 参见对正在编译的类 模板 实例化“boost::arg<9>”的引用
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(53): note: 参见对正在编译的类 模板 实例化“boost::arg<8>”的引用
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(52): note: 参见对正在编译的类 模板 实例化“boost::arg<7>”的引用
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(51): note: 参见对正在编译的类 模板 实例化“boost::arg<6>”的引用
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(50): note: 参见对正在编译的类 模板 实例化“boost::arg<5>”的引用
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(49): note: 参见对正在编译的类 模板 实例化“boost::arg<4>”的引用
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(48): note: 参见对正在编译的类 模板 实例化“boost::arg<3>”的引用
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(47): note: 参见对正在编译的类 模板 实例化“boost::arg<2>”的引用
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(46): note: 参见对正在编译的类 模板 实例化“boost::arg<1>”的引用
+d:\vs2015\vc\include\xmemory(102): error C4996: 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate': Call to 'std::uninitialized_copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  d:\vs2015\vc\include\xmemory(102): note: 参见“std::uninitialized_copy::_Unchecked_iterators::_Deprecate”的声明
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\detail\auto_buffer.hpp(191): note: 参见对正在编译的函数 模板 实例化“_FwdIt *std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\detail\auto_buffer.hpp(178): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\detail\auto_buffer.hpp(178): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\detail\auto_buffer.hpp(204): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\detail\auto_buffer.hpp(203): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\detail\auto_buffer.hpp(296): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\detail\auto_buffer.hpp(296): note: 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\detail\auto_buffer.hpp(294): note: 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)”时
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\detail\auto_buffer.hpp(302): note: 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)”的引用
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\connection.hpp(53): note: 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  c:\program files (x86)\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\signals2\connection.hpp(55): note: 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+  TestCloud.cpp
+c:\program files (x86)\pcl 1.8.1\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files (x86)\pcl 1.8.1\include\pcl-1.8\pcl\visualization\interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files (x86)\pcl 1.8.1\include\pcl-1.8\pcl\visualization\pcl_visualizer.h(1585): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\guapai\pcl_test1.8.1\testcloud\testcloud.cpp(68): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  正在生成代码...
